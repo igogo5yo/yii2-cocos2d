@@ -12,7 +12,7 @@ namespace igogo5yo\cocos2d;
 
 use yii\web\AssetBundle;
 use yii;
-use igogo5yo\cocos2d\Cocos2dFileHelper;
+use yii\helpers\FileHelper;
 use yii\helpers\Json;
 
 /**
@@ -45,8 +45,6 @@ class Cocos2dAsset extends AssetBundle
         "modules" => ["cocos2d"]
     ];
 
-    private $pathes = [];
-
     public function init()
     {
         parent::init();
@@ -55,15 +53,16 @@ class Cocos2dAsset extends AssetBundle
         $cocosSrcPath = Yii::getAlias($this->cocosSrcPath, 755, true);
 
         if (!file_exists($cocosSrcPath)) {
-            Cocos2dFileHelper::createDirectory($cocosSrcPath);
+            FileHelper::createDirectory($cocosSrcPath);
         }
 
-        Cocos2dFileHelper::foreachFile($cocosSrcPath, function($filePath) {
-            $this->pathes[] = str_replace(Yii::getAlias($this->basePath) . DIRECTORY_SEPARATOR, '', $filePath);
-        }, true);
-
+        $pathes = FileHelper::findFiles($cocosSrcPath);
+        foreach ($pathes as $k => $v) {
+            $pathes[$k] = str_replace($basePath . DIRECTORY_SEPARATOR, '', $v);
+        }
+        
         $this->cocosConfig[ 'engineDir' ] = Yii::$app->assetManager->getPublishedUrl( $this->sourcePath );
-        $this->cocosConfig[ 'jsList' ] = $this->pathes;
+        $this->cocosConfig[ 'jsList' ] = $pathes;
 
         file_put_contents( $basePath . '/project.json', Json::encode( $this->cocosConfig ) );
     }
