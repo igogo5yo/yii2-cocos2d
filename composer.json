@@ -1,0 +1,35 @@
+{
+    "name": "igogo5yo/yii2-cocos2d",
+    "description": "Cocos2d-html5 for Yii Framework 2",
+    "keywords": [
+        "cocos2d-html5",
+        "cocos2d-js",
+        "cocos2d-x",
+        "igogo5yo"
+        "yii2",
+        "framework"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skliar Ihor",
+            "email": "skliar.ihor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "bower-asset/cocos2d-html5": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "igogo5yo\\cocos2d\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
