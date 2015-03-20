@@ -18,7 +18,7 @@ use yii\helpers\FileHelper;
  * @author Skliar Ihor <skliar.ihor@gmail.com>
  * @since 1.0
  */
-class Cocos2dAsset extends FileHelper
+class Cocos2dFileHelper extends FileHelper
 {
     public static function foreachFile($dir, $handler, $recursive = false)
     {
