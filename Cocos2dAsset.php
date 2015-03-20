@@ -19,7 +19,7 @@ use yii\helpers\Json;
  * Asset bundle for the cocos2d-html5
  *
  * @author Skliar Ihor <skliar.ihor@gmail.com>
- * @since 1.0
+ * @since 1.1
  */
 class Cocos2dAsset extends AssetBundle
 {
