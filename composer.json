@@ -22,18 +22,9 @@
         "yiisoft/yii2": "~2.0",
         "bower-asset/cocos2d-html5": "dev-master"
     },
-    "require-dev": {
-        "yiisoft/yii2-codeception": "*"
-    },
     "autoload": {
         "psr-4": {
             "igogo5yo\\cocos2d\\": ""
-        }
-    },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
         }
     }
 }
