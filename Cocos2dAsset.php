@@ -54,7 +54,7 @@ class Cocos2dAsset extends AssetBundle
         $cocosSrcPath = Yii::getAlias($this->cocosSrcPath, 755, true);
 
         if (!file_exists($cocosSrcPath)) {
-            Cocos2dFileHelper::createDirectory($cocosSrcPath)
+            Cocos2dFileHelper::createDirectory($cocosSrcPath);
         }
 
         Cocos2dFileHelper::foreachFile($cocosSrcPath, function($filePath) {
