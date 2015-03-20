@@ -32,9 +32,8 @@ class Cocos2dAsset extends AssetBundle
         'CCBoot.js'
     ];
 
-    private $cocosSrcPath = '@webroot/js/cocos_src';
-    private $pathes = [];
-    private $cocosConfig = [
+    public $cocosSrcPath = '@webroot/js/cocos_src';
+    public $cocosConfig = [
         "jsList" => [],
         "project_type" => "javascript",
         "debugMode" => 1,
@@ -45,6 +44,8 @@ class Cocos2dAsset extends AssetBundle
         "engineDir" => "",
         "modules" => ["cocos2d"]
     ];
+
+    private $pathes = [];
 
     public function init()
     {
