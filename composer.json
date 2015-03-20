@@ -20,7 +20,7 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "~2.0",
-        "bower-asset/cocos2d-html5": "dev-master"
+        "bower-asset/cocos2d-html5": ">=1.0"
     },
     "autoload": {
         "psr-4": {
