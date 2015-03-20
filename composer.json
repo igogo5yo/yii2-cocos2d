@@ -26,5 +26,10 @@
         "psr-4": {
             "igogo5yo\\cocos2d\\": ""
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
     }
 }
