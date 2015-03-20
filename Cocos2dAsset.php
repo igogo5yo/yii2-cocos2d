@@ -62,7 +62,6 @@ class Cocos2dAsset extends AssetBundle
             $this->pathes[] = str_replace(Yii::getAlias($this->basePath) . DIRECTORY_SEPARATOR, '', $filePath);
         }, true);
 
-
         $this->cocosConfig[ 'engineDir' ] = Yii::$app->assetManager->getPublishedUrl( $this->sourcePath );
         $this->cocosConfig[ 'jsList' ] = $this->pathes;
 
