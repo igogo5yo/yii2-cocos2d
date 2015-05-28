@@ -1,6 +1,6 @@
 Cocos2d-html5 for Yii 2
 =====================================
-[![Dependency Status](https://www.versioneye.com/user/projects/550c2c20a80b5fc12d000271/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550c2c20a80b5fc12d000271)
+[![Latest Stable Version](https://poser.pugx.org/igogo5yo/yii2-cocos2d/v/stable)](https://packagist.org/packages/igogo5yo/yii2-cocos2d) [![Total Downloads](https://poser.pugx.org/igogo5yo/yii2-cocos2d/downloads)](https://packagist.org/packages/igogo5yo/yii2-cocos2d) [![Latest Unstable Version](https://poser.pugx.org/igogo5yo/yii2-cocos2d/v/unstable)](https://packagist.org/packages/igogo5yo/yii2-cocos2d) [![License](https://poser.pugx.org/igogo5yo/yii2-cocos2d/license)](https://packagist.org/packages/igogo5yo/yii2-cocos2d) [![Dependency Status](https://www.versioneye.com/user/projects/550c2c20a80b5fc12d000271/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550c2c20a80b5fc12d000271)
 
 This is the Cocos2d-html5 extension for Yii 2. It have AssetBundle for including [Cocos2d-html5](http://cocos2d-x.org/) to your Yii 2 web application.
 
