@@ -21,7 +21,7 @@ php composer.phar require --prefer-dist igogo5yo/yii2-cocos2d
 or add
 
 ```
-"igogo5yo/yii2-cocos2d: ">=1.0"
+"igogo5yo/yii2-cocos2d": ">=1.0"
 ```
 
 to the require section and change your minimum-stability option to
