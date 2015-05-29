@@ -1,11 +1,12 @@
 <?php
-/*
- * This file is part of the igogo5yo project.
- *
- * (c) igogo5yo project <http://github.com/igogo5yo/>
+/**
+ * This file is part of the igogo5yo/yii2-cocos2d project.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
+ *
+ * @copyright (c) igogo5yo
+ * @link http://github.com/igogo5yo/yii2-upload-from-url
  */
 
 namespace igogo5yo\cocos2d;
@@ -19,7 +20,7 @@ use yii\helpers\Json;
  * Asset bundle for the cocos2d-html5
  *
  * @author Skliar Ihor <skliar.ihor@gmail.com>
- * @since 1.1
+ * @version 1.1
  */
 class Cocos2dAsset extends AssetBundle
 {
