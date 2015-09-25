@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "igogo5yo\\cocos2d\\": ""
+            "igogo5yo\\cocos2d\\": "src"
         }
     },
     "extra": {
